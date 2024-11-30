@@ -24,10 +24,9 @@ if (import.meta.env.DEV && !(root instanceof HTMLElement)) {
 render(
   () => (
     <Router>
-      
+      <Login />
      <Routes>
        
-        <Route path="/Login" component={Login} />
         <Route path="/Register" component={Register} />
         <Route path="/Dashboard" component={Dashboard}/>
         <Route path="/AgGrid" component={AgGrid}/>
